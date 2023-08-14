@@ -1,7 +1,18 @@
 <template>
-  <div></div>
+  <div class="article-preview">
+    <CategoryNews />
+  </div>
 </template>
 <script>
-export default {}
+import CategoryNews from "./CategoryNews.vue"
+export default {
+  components: {
+    CategoryNews,
+  },
+}
 </script>
-<style></style>
+<style>
+.article-preview {
+  display: flex;
+}
+</style>
