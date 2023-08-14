@@ -1,7 +1,8 @@
 <template>
   <header class="header">
     <nav>
-      <router-link class="nav-link" to="/">Главная</router-link>
+      <!-- <router-link class="nav-link" to="/">Главная</router-link> -->
+      <router-link class="nav-link" to="/">Home</router-link>
       <router-link class="nav-link" :to="'/about'">О нас</router-link>
       <router-link class="nav-link" :to="'/new'">New</router-link>
       <router-link class="nav-link" :to="'/signup'">signup</router-link>
