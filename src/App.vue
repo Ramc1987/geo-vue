@@ -1,26 +1,18 @@
 <template>
   <div id="app">
     <TheHeader />
-    <main>
-      <router-view :key="$route.fullPath" />
-      <TheArticlePreview />
-      <!-- <router-link class="nav-link" :to="'/about'">казачество в крыму</router-link>
-      <router-link class="nav-link" :to="'/new'">казачество в крыму2</router-link>
-      <router-link class="nav-link" :to="'/signup'">казачество в крыму3</router-link> -->
-    </main>
+    <router-view :key="$route.fullPath" />
   </div>
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader.vue"
 import router from "./router"
-import TheArticlePreview from "./components/TheArticlePreview.vue"
 
 export default {
   name: "App",
   components: {
     TheHeader,
-    TheArticlePreview,
   },
   router,
 }
