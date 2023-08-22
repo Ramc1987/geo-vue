@@ -16,8 +16,10 @@ export default {
 
 <style scoped>
 .article {
-  margin: 20px;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
   border: 1px solid #a55151;
+  width: 100%;
+  height: 100px;
 }
 </style>

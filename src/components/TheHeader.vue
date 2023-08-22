@@ -4,8 +4,6 @@
       <img class="logo" src="../assets/logo.png" width="50" height="50" alt="" />
     </router-link>
     <nav>
-      <!-- <router-link class="nav-link" to="/">Главная</router-link> -->
-      <!-- <router-link class="nav-link" to="/">Home</router-link> -->
       <router-link class="nav-link" :to="'/about'">О нас</router-link>
       <router-link class="nav-link" :to="'/new'">New</router-link>
       <router-link class="nav-link" :to="'/signup'">signup</router-link>
